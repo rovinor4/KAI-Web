@@ -1,5 +1,5 @@
 # Project Landing Page KAI
-## Dibuat oleh: Rovino Ramadhani
+## Dibuat oleh: Rovino Ramadhani | Informatike | IF-04-01 | 103072400031
 ### Tugas UKM Coder Telkom University Surabaya
 
 ### Deskripsi Proyek
