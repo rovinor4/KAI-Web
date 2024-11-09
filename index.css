@@ -15,8 +15,8 @@ img {
 }
 
 body {
-    padding: 0;
-    margin: 0;
+    padding: 0px !important;
+    margin: 0px !important;
 }
 
 nav {
@@ -362,4 +362,97 @@ nav .menu-button {
     .section-pesanan .subtitle{
         font-size: 16px !important;
     }
+}
+
+.text-ulasan{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    color: var(--primary);
+}
+
+
+.ulasan{
+    margin-top: 10px;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+}
+
+.ulasan .avatar{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.ulasan .avatar img{
+    width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+.ulasan .avatar p{
+    margin: 0;
+    font-weight: 500;
+}
+
+.ulasan .avatar .uls{
+    font-size: 13px;
+}
+
+.artikel .box{
+    padding: 0;
+    overflow: hidden;
+}
+
+.artikel .box img{
+    width: 100%;
+    height: 150px;
+}
+
+.artikel .box .context{
+    padding: 20px;
+    
+}
+
+.artikel .box .context p{
+    margin: 0;
+}
+
+.artikel .box .context .jdl-art{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.artikel .box .context .desc-art{
+    font-size: 13px;
+    color: rgb(90, 90, 90);
+}
+
+
+footer{
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    margin: 0;
+    padding: 10px 0;
+}
+
+footer .footer-content{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer-content .footer-logo{
+    display: flex;
+    gap: 10px;
+}
+footer .footer-content .footer-logo img{
+    height: 40px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+footer .footer-copyright{
+    font-size: 14px;
+    color: rgb(108, 108, 108);
 }
